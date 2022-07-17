@@ -1,0 +1,109 @@
+@media screen and (min-width:968px){
+
+    .main-container{
+        width:100%;  
+    }
+    .main-container .header{
+        grid-template-columns: repeat(auto-fit, minmax(10rem,auto));
+    }
+    .main-container .content{
+        grid-template-columns: repeat(auto-fit, minmax(13rem,auto));  
+    }}
+    
+    @media screen and (max-width:768px){
+    
+    .main-container{
+        width:100%; 
+    }
+    .main-container .header{
+        grid-template-columns: repeat(auto-fill, minmax(12rem,auto));
+    }
+    .main-container .content{
+        grid-template-columns: repeat(auto-fill, minmax(15rem,auto)); 
+        height:650px;    
+    }
+    .main-container .content .card .parrafo{
+        display:none;
+    }
+    .main-container .content .card .card-title{
+        margin:20px;
+        text-align: center;
+    }
+    .main-container .content .card .enlace{
+        display:grid;
+        justify-content: center;
+    }
+    .main-container .banners{
+        
+        grid-template-columns: repeat(auto-fill, minmax(18rem,auto));
+        height:370px;
+        width:100%;
+    
+    }
+    .main-container .banners .banner-text{
+        display:grid; 
+    }}
+    
+    
+
+ @media screen and (max-width:490px){
+    
+        .main-container .header{
+            grid-template-columns: repeat(auto-fill, minmax(13rem,auto));
+            padding:20px; 
+        }
+        .main-container .header .logo{
+            display:none;
+        }
+        .main-container .header nav{
+            display:grid;
+            height:100%;
+        }
+        .main-container .header nav ul{
+            display:grid;
+           
+        }
+        .main-container .header nav ul li{
+            margin:2px 0;
+            list-style:circle;
+            color:#fff;
+            
+        }
+        .main-container .content{
+            grid-template-columns: repeat(auto-fit, minmax(13rem,auto));  
+        }
+    
+        .main-container .banners{
+            grid-template-columns: repeat(auto-fill, minmax(16rem,auto));
+            height:500px;
+            width:100%;
+        }
+        .main-container .banners img{
+            width:100%;
+        }
+        .main-container .banners .banner-text{
+            box-shadow: 1px 1px 10px #ccc;
+        }
+        .main-container .widgets{
+            grid-template-columns:1fr;
+        }
+        .main-container .banner-text .btns{
+            margin-bottom:30px;
+        }
+    
+    footer .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    }
+
+
+
+
+
+
+
+
+    
+        
+    
