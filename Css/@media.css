@@ -1,13 +1,13 @@
 @media screen and (min-width:968px){
 
     .main-container{
-        width:100%;  
+        width:90%;  
     }
     .main-container .header{
         grid-template-columns: repeat(auto-fit, minmax(10rem,auto));
     }
     .main-container .content{
-        grid-template-columns: repeat(auto-fit, minmax(13rem,auto));  
+        grid-template-columns: repeat(auto-fit, minmax(10rem,auto));  
     }}
     
     @media screen and (max-width:768px){
