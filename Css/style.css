@@ -97,6 +97,10 @@ body{
 .main-container .content .card > img{
     width:100%;
     height:100%; 
+    transition:300ms
+}
+.main-container .content .card > img:hover{
+    opacity:0.9; 
 }
 .main-container .content .card .card-title{
     margin-top:2.5rem;
@@ -132,18 +136,25 @@ body{
     align-content: center;
 }
 .main-container .banners .banner-title{
-    margin:15px;   
+    margin:15px; 
+    animation:fadeInRight;
+    animation-duration: 4s; 
 }
 .main-container .banner-text .banner-parrafo{
     margin:0.9375rem;
     padding:0.9375rem;
+    animation:fadeInRight;
+    animation-duration:8s;
 }
+
 .main-container .banner-text .btns{
     margin-top:40px;
     width:80%;
     height:40px;
     display:flex;
-    justify-content: center;
+    justify-content: center;    
+  animation:fadeInRight;
+  animation-duration: 9s;
 }
 .main-container .banner-text .btns .btn{
     width:175px;
@@ -175,8 +186,13 @@ body{
     margin:60px 0;
   
 }
-.main-container .widgets .promo, .widget{ 
-  background-color:rgb(137, 235, 137);
+.main-container .widgets .widget{ 
+    background-image: linear-gradient(to left, #444, rgb(145, 136, 120));
+    transition:400ms;
+}
+
+.main-container .widgets .widget:hover{ 
+    opacity:0.9;
 }
 
 
