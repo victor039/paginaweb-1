@@ -25,6 +25,7 @@ body{
                          "content content content content"
                          "banners banners banners banners"
                          "widgets widgets widgets widgets"
+                         "form    form    form    form"
                          "footer  footer footer footer"
                         ;
 }
@@ -67,10 +68,13 @@ body{
    display:flex;
    align-items: center;  
 }
+
 .main-container .header  nav  ul  li{
     margin:0px 20px;
     list-style:none;  
+   
 }
+
 .main-container .header  nav  ul  li  a{
     color:#fff;
     text-decoration: none;

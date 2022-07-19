@@ -1,0 +1,14 @@
+.section{
+    
+   grid-area:form;
+
+}
+.form-title{
+    display:grid;
+    justify-items: center;
+    font-size:2em;
+}
+nav{
+    background-color:#444;
+    box-shadow: none;
+}
